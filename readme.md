@@ -57,7 +57,7 @@ Both projects use the same physical files for the mathematical classes, stored i
 
 The MFC application has several menu sections:
 
-- `Histogram` — opens a dialog for setting distribution parameters, simulation method and sample size. Shortcut: `Alt + H`.
+- `Histogram` — opens a dialog for setting H0, H1, simulation method and sample size. Shortcut: `Alt + H`.
 - `P-values` — opens a dialog for setting H0, H1, sample size and number of p-values. Shortcut: `Alt + P`.
 - `Power by n` — opens a dialog for setting parameters and building power depending on sample size.
 - `Power by alpha` — opens a dialog for setting parameters and building power depending on alpha.
