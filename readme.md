@@ -12,7 +12,7 @@ The solution contains two projects:
 - Hypergeometric distribution with cached theoretical probabilities.
 - Two simulation methods:
   - Bernoulli method;
-  - inverse method.
+  - Inverse method.
 - Chi-square test.
 - Histogram of empirical and theoretical frequencies.
 - Generation and visualization of p-values.
@@ -52,3 +52,14 @@ Build and run either:
 - `CHI2_Console` for the console demonstration.
 
 Both projects use the same physical files for the mathematical classes.
+
+## MFC application usage
+
+The MFC application has several menu sections:
+
+- `Histogram` — opens a dialog for setting distribution parameters, simulation method and sample size. Shortcut: `Alt + H`.
+- `P-values` — opens a dialog for setting H0, H1, sample size and number of p-values. Shortcut: `Alt + P`.
+- `Power by n` — opens a dialog for setting parameters and building power depending on sample size.
+- `Power by alpha` — opens a dialog for setting parameters and building power depending on alpha.
+
+The `Update` command regenerates data with the current parameters and redraws the current view. It is available from the menu and from the square toolbar button. Shortcut: `Alt + U`.
