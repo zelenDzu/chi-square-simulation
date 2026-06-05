@@ -51,7 +51,7 @@ Build and run either:
 - `CHI2_Program` for the graphical MFC application;
 - `CHI2_Console` for the console demonstration.
 
-Both projects use the same physical files for the mathematical classes.
+Both projects use the same physical files for the mathematical classes, stored in CHI2_Program folder.
 
 ## MFC application usage
 
