@@ -1,6 +1,6 @@
 # Chi-square simulation
 
-C++ project for simulation and chi-square goodness-of-fit testing for the hypergeometric distribution.
+C++ project for simulation and chi-square test for the hypergeometric distribution.
 
 The solution contains two projects:
 
