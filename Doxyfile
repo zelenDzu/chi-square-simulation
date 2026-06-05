@@ -1,0 +1,35 @@
+PROJECT_NAME           = "Chi2 Console"
+PROJECT_BRIEF          = "Chi-square simulation for hypergeometric distribution"
+
+OUTPUT_DIRECTORY       = docs
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_COLORSTYLE        = DARK
+
+GENERATE_LATEX         = NO
+
+INPUT                  = CHI2_Console/CHI2_Console.cpp \
+                         CHI2_Console/mainpage.dox \
+                         CHI2_Program/Distribution.h \
+                         CHI2_Program/Sample.h \
+                         CHI2_Program/SampleBernoulli.h \
+                         CHI2_Program/SampleInverse.h \
+                         CHI2_Program/Chi2Histogram.h \
+			 CHI2_Program/Method.h
+
+FILE_PATTERNS          = *.h *.cpp *.dox
+
+RECURSIVE              = NO
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = NO
+
+FULL_PATH_NAMES        = NO
+STRIP_FROM_PATH        = CHI2_Program CHI2_Console
+
+OPTIMIZE_OUTPUT_FOR_C  = NO
+BUILTIN_STL_SUPPORT    = YES

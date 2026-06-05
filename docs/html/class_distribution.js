@@ -1,0 +1,25 @@
+var class_distribution =
+[
+    [ "Distribution", "class_distribution.html#af261581235a1720999feccb90bfb122e", null ],
+    [ "Distribution", "class_distribution.html#a388dee988dc700f4f3efed05f60be714", null ],
+    [ "~Distribution", "class_distribution.html#a68522687bdcca605cce35adb68afdcac", null ],
+    [ "calc_prob_x", "class_distribution.html#a51500562b062e54f1561cb82da38a22a", null ],
+    [ "get_a", "class_distribution.html#a05c03594dffb9a29b65001d4d3d2fef3", null ],
+    [ "get_b", "class_distribution.html#afe4feac75cddc9c46d84cd100c1219f7", null ],
+    [ "get_dist_name", "class_distribution.html#a9d2549707bee9fcaaa5024c10148441e", null ],
+    [ "get_k", "class_distribution.html#a43bf4eb00491b9be90a6f861fc6a943f", null ],
+    [ "get_n", "class_distribution.html#aa780649c89945e54610fe7590e779b5a", null ],
+    [ "get_probs", "class_distribution.html#aaefb1aad418fa6e9e19c802d0fa307b0", null ],
+    [ "get_states_num", "class_distribution.html#a130866c6d4160713d0a1d50144bdf7ab", null ],
+    [ "init_prob", "class_distribution.html#a7d8030449dd6cf726f7462e40ce4dfa8", null ],
+    [ "next_prob", "class_distribution.html#a26c4229d2a3fd5c716192896b6f09c05", null ],
+    [ "operator!=", "class_distribution.html#a34b93b325aa018c1a5f4ae55ab13f151", null ],
+    [ "operator==", "class_distribution.html#afb4d10893e3e60da94872d56bf3f7260", null ],
+    [ "a", "class_distribution.html#a5cb2724eaffaa6e80de10ba626cc4f3b", null ],
+    [ "b", "class_distribution.html#adc326eb819ffe380694e71442fd62e9d", null ],
+    [ "k", "class_distribution.html#ab90b85f452735fde224917bf81a4edec", null ],
+    [ "last_p", "class_distribution.html#ad9076737a554a6cecae74e0e903b0e8a", null ],
+    [ "name", "class_distribution.html#a980c5666145730e0a10b8533f1ac77b9", null ],
+    [ "ps", "class_distribution.html#a10ab1f7004c07aa1299c4c1b0e2dd307", null ],
+    [ "states_number", "class_distribution.html#a08e6248ee3932740644aed63d82b5bc9", null ]
+];

@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CHI2_Console/CHI2_Console.vcxproj" Id="e75c2117-0478-437c-92a5-4e436e2e8e2c" />
+  <Project Path="CHI2_Program/CHI2_Program.vcxproj" />
+</Solution>

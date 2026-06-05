@@ -1,0 +1,48 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build folders
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM/
+ARM64/
+[Bb]in/
+[Oo]bj/
+
+# C++ build files
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.ilk
+*.idb
+*.tlog
+*.lastbuildstate
+*.log
+*.recipe
+*.res
+*.aps
+*.ncb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.ipch
+
+# Executables and libraries
+*.exe
+*.dll
+*.lib
+*.exp
+
+# Doxygen latex output
+/html/
+/latex/
+/CHI2_Console/html
+/CHI2_Console/latex

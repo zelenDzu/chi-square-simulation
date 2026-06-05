@@ -1,0 +1,70 @@
+/**
+ * @mainpage Chi2Console documentation
+ *
+ * @section purpose Program purpose
+ *
+ * Chi2Console is a console demonstration program for the mathematical classes
+ * used in the chi-square simulation project.
+ *
+ * The program demonstrates how to create and use the main mathematical objects:
+ * distributions, samples and chi-square histogram.
+ *
+ * @section demonstrated Demonstrated operations
+ *
+ * The main function is written as a "How to" example.
+ *
+ * It demonstrates:
+ * - How to set seed for Sample simulations.
+ * - How to create distributions H0 and H1.
+ * - How to get Distribution parameters.
+ * - How to calculate the probability of one outcome.
+ * - How to get all Distribution probabilities.
+ * - How to set modeling parameters.
+ * - How to choose a simulation Method.
+ * - How to create a Sample object using enum and switch.
+ * - How to simulate one Sample.
+ * - How to get the simulated sample and its size.
+ * - How to create a Chi2Histogram object.
+ * - How to get expected and observed frequencies used in the chi-square test.
+ * - How to calculate the chi-square test.
+ * - How to get chi-square statistic, degrees of freedom and p-value.
+ *
+ * @section math Mathematical idea
+ *
+ * The program works with two hypergeometric distributions:
+ * - H0 is the distribution used as the null hypothesis;
+ * - H1 is the distribution used for simulation.
+ *
+ * A sample is generated according to H1. Then the chi-square goodness-of-fit
+ * test compares this sample with H0. The theoretical frequencies are calculated
+ * from H0, and the observed frequencies are calculated from the simulated sample.
+ *
+ * The chi-square test returns:
+ * - chi-square statistic;
+ * - degrees of freedom;
+ * - p-value.
+ *
+ * The null hypothesis is rejected when p-value < alpha.
+ *
+ * Therefore, if the same simulation-and-testing procedure is repeated many
+ * times, the obtained p-values can be used to estimate:
+ * - the real type I error when H0 = H1;
+ * - the power of the test when H0 and H1 are different.
+ *
+ * This console example shows one simulation and one chi-square test. The same
+ * classes are used in the full MFC application to generate many p-values and
+ * draw histograms and empirical distribution functions.
+ *
+ * @section classes Mathematical classes
+ *
+ * The console program uses the following mathematical classes:
+ *
+ * - Distribution stores parameters of the hypergeometric distribution and
+ *   cached theoretical probabilities.
+ * - Sample is an abstract base class for simulated samples.
+ * - BernoulliSample simulates samples by Bernoulli method.
+ * - InverseSample simulates samples by Inverse method.
+ * - Chi2Histogram stores observed and expected frequencies and calculates
+ *   chi-square statistic, degrees of freedom and p-value.
+ *
+ */
